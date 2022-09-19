@@ -14,13 +14,13 @@ a {
 }
 
 body {
-    background-color: #ccc;
+    background-color: #EAEBED;
     width: 100%;
     height: 100vh;
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     margin: auto;
     height: auto;
 }
@@ -28,13 +28,12 @@ body {
 /* header */
 
 .header {
-    background-color: rgb(139, 139, 139);
+    background-color: #536DFE;
     height: 3rem;
-}
-
-.header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 10px #0000003b;
 }
 
 .header p {
@@ -42,11 +41,19 @@ body {
     font-weight: bold;
     margin: 0.5rem 2rem;
     font-size: 30px;
+    color:#B1B0AE;
+}
+
+.header a {
+    color: #B1B0AE;
+    font-size: 17px;
+    font-weight: bold;
+    
 }
 
 .header-nav ul {
     display: flex;
-    margin: 0.6rem 2rem;
+    margin: 0.8rem 2rem;
 }
 
 .header-nav ul li {
@@ -54,8 +61,9 @@ body {
     margin-right: 2rem;
 }
 
-.header-nav ul li:hover {
-    background-color: blueviolet;
+.header-nav ul li a:hover {
+    color: white;
+    transition: ease-in .3s;
 }
 
 /* Imagem Ilustrativa */
@@ -70,13 +78,16 @@ body {
 .image-top {
     display: flex;
     justify-content: space-around;
-    background-color: bisque;
+    background-color: transparent;
+    width: 90%;
+    margin: auto;
 }
 
 .text-top {
     margin-top: 10rem;
     width: 25rem;
     letter-spacing: 0.1rem;
+    color: #3F3D56;
 }
 
 .text-top h1 {
@@ -89,7 +100,8 @@ body {
 }
 
 .text-top a {
-    background-color: #ddd;
+    background-color: #B1B0AE;
+    color: #536DFE;
     margin-top: 1rem;
     display: inline-block;
     padding: 1rem;
@@ -99,14 +111,18 @@ body {
 }
 
 .text-top a:hover {
-    background-color: aqua;
+    background-color: #536DFE;
+    color: white;
+    transition: ease-in .3s;
 }
 
 /* main */
 
 .main-content {
-    background-color: rgb(185, 138, 138);
+    background-color: #EAEBED;
     height: 25rem;
+    width: 90%;
+    margin: auto;
 }
 
 .main-section {
@@ -137,22 +153,29 @@ body {
 /* aside */
 
 .aside-content {
-    width: 100%;
+    width: 90%;
     height: 20rem;
+    margin: auto;
     background-color: crimson;
 }
 
 /* contact */
 
 .footer {
-    background-color: darkgoldenrod;
+    background-color:#EAEBED;
+    font-size: 0.8rem;
+    width: 100%;
+    margin: auto;
 }
 
 .footer-flex {
     display: flex;
-    justify-content: space-around;
     text-transform: uppercase;
+    gap: 100px;
     padding-top: 1rem;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
 }
 
 .footer-contact {
