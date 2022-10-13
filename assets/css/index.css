@@ -79,7 +79,7 @@ body {
     transition: ease-in .3s;
 }
 
-/* Imagem Ilustrativa */
+/* top */
 
 .image {
     display: flex;
@@ -167,58 +167,6 @@ body {
 .article h3 {
 	padding-top: 6px;
 }
-
-
-
-/* 
-.main-section {
-    display: flex;
-	justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin: auto;
-	text-align: center;
-}
-
-.article {
-    margin: 3rem;
-	width: 150px;
-	height: 50px;
-}
-
-.article h3 {
-    margin-top: 0.8rem; 
-    text-transform: uppercase;
-}
-
-.article h3:hover {
-	color: #000000a5;
-}
-
-.article p {
-    margin-top: 2rem;
-    line-height: 1.5rem;
-} */
-
-/* .aspas {
-	display: flex;
-	padding-top: 100px;
-	margin-right: 3rem;
-	margin-left: 5rem;
-	justify-content: center;
-}
-
-.aspas img {
-	margin-right: 30px;
-}
-
-.aspas p {
-	font-size: 25px;
-	font-weight: bold;
-	padding-top: 30px;
-} */
-
-
 
 /* Service cards */
 
