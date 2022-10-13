@@ -83,7 +83,7 @@ body {
 
 .image {
     display: flex;
-    margin: 5rem auto;
+    margin: 6rem auto;
 }
 
 .image-top {
@@ -128,13 +128,44 @@ body {
     transition: ease-in .3s;
 }
 
-/* teste */
+/* main */
+
+.main-content {
+    background-color: #EAEBED;
+    height: 25rem;
+    width: 90%;
+    margin: auto;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.article {
+    margin: 3rem;
+}
+
+.article h3 {
+    margin-top: 0.8rem; 
+    text-transform: uppercase;
+}
+
+.article p {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+/* Service cards */
 
 .projcard-container {
 	margin: 50px 0;
 }
 
-/* Actual Code: */
 .projcard-container,
 .projcard-container * {
 	box-sizing: border-box;
@@ -318,47 +349,24 @@ body {
 	top: 0;
 }
 
-/* main */
+/*  Animation cards */
 
-.main-content {
-    background-color: #EAEBED;
-    height: 25rem;
-    width: 90%;
-    margin: auto;
+[data-anime] {
+	opacity: 0;
+	transition: .9s;
 }
 
-.main-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    text-align: center;
+[data-anime="right"] {
+	transform: translate3d(50px, 0 ,0);
 }
 
-.article {
-    margin: 3rem;
+[data-anime="left"]{
+	transform: translate3d(-50px, 0 ,0);
 }
 
-.article h3 {
-    margin-top: 0.8rem; 
-    text-transform: uppercase;
-}
-
-.article p {
-    margin-top: 2rem;
-    line-height: 1.5rem;
-}
-
-
-
-/* aside */
-
-.aside-content {
-    width: 100%;
-    height: 20rem;
-    margin: auto;
-    background-color: #FE7062;
+[data-anime].animate {
+	opacity: 1;
+	transform: translate3d(0px, 0px, 0px);
 }
 
 /* free */
@@ -370,6 +378,57 @@ body {
     height: 20rem;
 }
 
+
+/* aside */
+
+.aside-content {
+    width: 100%;
+    height: 18rem;
+    background-color: #FE7062;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 6rem;
+}
+
+.aside-title {
+	word-break:break-all;
+	width: 500px;
+	height: 10rem;
+}
+
+.aside-title h3 {
+	padding-bottom: 15px;
+	font-size: 50px;
+}
+
+.aside-title p {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	padding-bottom: 10px;
+}
+
+.devs {
+	display: flex;
+	gap: 30px;
+	height: 13rem;
+}
+
+.dev {
+	text-align: center;
+	font-weight: bold;
+}
+
+.dev p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 10px;
+}
+
+.dev img{
+	border-radius: 50%;
+	width: 80px;
+}
+
+
 /* contact */
 
 .footer {
@@ -377,6 +436,7 @@ body {
     font-size: 0.8rem;
     width: 100%;
     margin: auto;
+	padding-top: 50px;
 }
 
 .footer-flex {
@@ -414,6 +474,7 @@ body {
 .footer-social h2 {
     padding-bottom: 0.5rem;
 }
+
 
 
 
