@@ -132,22 +132,58 @@ body {
 
 .main-content {
     background-color: #EAEBED;
-    height: 25rem;
-    width: 90%;
+    height: 20rem;
+    width: 100%;
     margin: auto;
+	box-shadow: 0px -1px 30px #0000003b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10%;
 }
 
+.main-text {
+	width: 60%;
+	padding-left: 5%;
+	font-size: 20px;
+	letter-spacing: 1.3px;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+.main-icon {
+	width: 20%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	text-align: center;
+}
+
+.article {
+	padding: 20px;
+}
+
+.article h3 {
+	padding-top: 6px;
+}
+
+
+
+/* 
 .main-section {
     display: flex;
-    justify-content: space-around;
+	justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 50%;
     margin: auto;
-    text-align: center;
+	text-align: center;
 }
 
 .article {
     margin: 3rem;
+	width: 150px;
+	height: 50px;
 }
 
 .article h3 {
@@ -155,10 +191,34 @@ body {
     text-transform: uppercase;
 }
 
+.article h3:hover {
+	color: #000000a5;
+}
+
 .article p {
     margin-top: 2rem;
     line-height: 1.5rem;
+} */
+
+.aspas {
+	display: flex;
+	padding-top: 100px;
+	margin-right: 3rem;
+	margin-left: 5rem;
+	justify-content: center;
 }
+
+.aspas img {
+	margin-right: 30px;
+}
+
+.aspas p {
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+
 
 /* Service cards */
 
@@ -369,13 +429,38 @@ body {
 	transform: translate3d(0px, 0px, 0px);
 }
 
-/* free */
+/* logged-slide */
 
-.free {
-    background-color: #EAEBED;
+.logged-slide {
+    background-color:  #EAEBED ; /*  #EAEBED / #aeb8cb  */
     width: 90%;
     margin: auto;
-    height: 20rem;
+    height: 66rem;
+}
+
+.slide1, .slide2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	gap: 125px;
+}
+
+.slide1 div, .slide2 div {
+	width: 500px;
+}
+
+.img-slide1{
+	box-shadow: -10px 10px 10px  #0000003b;
+}
+
+.img-slide2 {
+	box-shadow: 10px 10px 10px  #0000003b;
+}
+
+.slide1 h3, .slide2 h3 {
+	padding-bottom: 20px;
 }
 
 
@@ -383,7 +468,7 @@ body {
 
 .aside-content {
     width: 100%;
-    height: 18rem;
+    height: 15rem;
     background-color: #FE7062;
 	display: flex;
 	justify-content: space-between;
@@ -432,7 +517,7 @@ body {
 /* contact */
 
 .footer {
-    background-color:#c8c8c8;
+    background-color:#EAEBED;
     font-size: 0.8rem;
     width: 100%;
     margin: auto;
