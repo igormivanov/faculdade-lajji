@@ -500,6 +500,15 @@ body {
     align-self: center;
 }
 
+.footer-nav a {
+    color: black;
+}
+
+.footer-nav a:hover {
+    color: rgba(0, 0, 0, 0.766);
+    text-decoration: underline;
+}
+
 .footer-social {
     align-self: center;
 }
