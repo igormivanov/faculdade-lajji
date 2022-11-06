@@ -142,6 +142,8 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
+    width: 50%;
+    font-size: 10px;
 }
 
 .input-box input {
@@ -151,6 +153,7 @@ body {
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
     font-size: 0.8rem;
+    
 }
 
 .date input{
