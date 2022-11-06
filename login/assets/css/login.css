@@ -175,7 +175,7 @@ body {
     color: #000000be;
 }
 
-.continue-button button {
+.continue-button input {
     margin-top: 1;
     border: none;
     background-color: #FE7062;
@@ -184,17 +184,14 @@ body {
     padding-right: 3.2rem;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.continue-button button:hover {
-    background-color: #6178ff;
-}
-
-.continue-button button a {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
     color: #fff;
+}
+
+.continue-button input:hover {
+    background-color: #6178ff;
 }
 
 /* login options */
