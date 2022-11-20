@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/logged.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>LAJJI | Cadastro</title>
+</head>
+<body>
+
+<div class="nav-side-menu">
+    <div class="area">
+    </div>
+    <nav class="main-menu">
+            <ul>
+                <li class="main-menu-title">
+                    <p>LAJJI</p>
+                </li>
+                <li>
+                    <a href="../logged.html">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text">
+                            Dashboard
+                        </span>
+                    </a>
+                  
+                </li>
+                <li class="has-subnav">
+                    <a href="../pconsulta/consulta.html">
+                        <i class="fa fa-laptop fa-2x"></i>
+                        <span class="nav-text">
+                            Consulta
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="../pcadastro/cadastro.html">
+                       <i class="fa fa-list fa-2x"></i>
+                        <span class="nav-text">
+                            Cadastro
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="../palteracao/alteracao.html">
+                       <i class="fa fa-folder-open fa-2x"></i>
+                        <span class="nav-text">
+                            Alteração
+                        </span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="../premocao/remocao.html">
+                        <i class="fa fa-bar-chart-o fa-2x"></i>
+                        <span class="nav-text">
+                            Remoção
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="logout">
+                <li>
+                   <a href="../../index.html">
+                         <i class="fa fa-power-off fa-2x"></i>
+                        <span class="nav-text">
+                            Logout
+                        </span>
+                    </a>
+                </li>  
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="container">
+        <section class="image-top">
+            <div class="image">
+                <img src="assets/image/undraw_logistics_x-4-dc (1).svg"  width="530px"  alt="">
+            </div>
+            <form name="f1" action="ProdutoControlador" class="form" method="post">
+                <!-- Cabeçalho -->
+                <header class="form-header">
+                    <h1>Cadastro</h1>
+                </header>
+                <!-- inputs -->
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Código</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Código do produto" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="rg">Descrição</label>
+                        <input id="rg" type="text" name="rg" placeholder="Descrição do produto" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="tel">Marca</label>
+                        <input id="tel" type="tel" name="tel" placeholder="Marca" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="cpf">Preço Unitário</label>
+                        <input id="cpf" type="text" name="cpf" placeholder="Preço de cada unidade" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="date">Preço de Compra</label>
+                        <input id="date" type="text" name="date" placeholder="Preço do produto" required >
+                    </div>
+                    <div class="input-box">
+                        <label for="endereco">Quantidade</label>
+                        <input id="endereco" type="text" name="endereco" placeholder="Quantidade" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Quantidade Mínima</label>
+                        <input id="email" type="email" name="email" placeholder="Quantidade minima" required>
+                    </div>
+                </div>
+                <!-- Botão continuar -->
+                <div class="continue-button">
+                    <input type="button" value="Cadastrar">
+                </div>
+            </form>
+        </section>
+    </div>
+
+ <script src="assets/logged.js"></script>
+</body>
+</html>

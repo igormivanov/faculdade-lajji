@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/logged.css">
+    <link rel="stylesheet" href="remocao.css">
+    <title>LAJJI | Remoção</title>
+</head>
+<body>
+
+<div class="nav-side-menu">
+    <div class="area">
+    </div>
+    <nav class="main-menu">
+            <ul>
+                <li class="main-menu-title">
+                    <p>LAJJI</p>
+                </li>
+                <li>
+                    <a href="../logged.html">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text">
+                            Dashboard
+                        </span>
+                    </a>
+                  
+                </li>
+                <li class="has-subnav">
+                    <a href="../pconsulta/consulta.html">
+                        <i class="fa fa-laptop fa-2x"></i>
+                        <span class="nav-text">
+                            Consulta
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="../pcadastro/cadastro.html">
+                       <i class="fa fa-list fa-2x"></i>
+                        <span class="nav-text">
+                            Cadastro
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="../palteracao/alteracao.html">
+                       <i class="fa fa-folder-open fa-2x"></i>
+                        <span class="nav-text">
+                            Alteração
+                        </span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="../premocao/remocao.html">
+                        <i class="fa fa-bar-chart-o fa-2x"></i>
+                        <span class="nav-text">
+                            Remoção
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="logout">
+                <li>
+                   <a href="../../index.html">
+                         <i class="fa fa-power-off fa-2x"></i>
+                        <span class="nav-text">
+                            Logout
+                        </span>
+                    </a>
+                </li>  
+            </ul>
+        </nav>
+</div>    
+
+<div class="container">
+    <section class="image-top">
+    
+        <div class="table-div">
+            <div class="table-header">
+                <h1>Sistema</h1>
+            </div>
+            <div class="scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Descrição</th>
+                            <th>Marca</th>
+                            <th>Preço Unitário</th>
+                            <th>Preço de Compra</th>
+                            <th>Quantidade</th>
+                            <th>Quantidade mínima</th>
+                            <th>Utilma atualização</th>
+                            <th>Utilma alteração feita por</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td data-label="Código">5</td>
+                        <td data-label="Descrição">Miojo</td>
+                        <td data-label="Marca">Nissin</td>
+                        <td data-label="Preço Unitário">5.00</td>
+                        <td data-label="Marca">2.50</td>
+                        <td data-label="Marca">100</td>
+                        <td data-label="Marca">5</td>
+                        <td data-label="Marca">2022-11-17 00:00</td>
+                        <td data-label="Marca">47180346802</td>
+                    </tr><tr>
+                    </tr><tr>
+                    </tr><tr>
+                    </tr><tr>
+                    </tr><tr>
+                    <tr></tr>
+                    <tr></tr>
+                </table>
+            </div>
+        </div>
+
+
+        <form name="fl" action="ProdutoControlador" class="form" method="post">
+    
+            <!-- Cabeçalho -->
+            <header class="form-header">
+                <h1>Remover produto</h1>
+            </header>
+    
+            <!-- inputs -->
+            <div class="input-group">
+                
+                <div class="input-box">
+                    <label for="code">Código</label>
+                    <input id="txtCodigo" type="text" name="txtCodigo" placeholder="Digite o código do produto" required>
+                </div>
+            </div>
+    
+            <!-- Botão continuar -->
+            <div class="continue-button">
+                <input type="submit" value="Remover">
+            </div>
+        </form>
+    </section>
+</div>
+
+     <script src="assets/logged.js"></script>
+</body>
+</html>
