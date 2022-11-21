@@ -86,7 +86,10 @@ body {
 
 .image {
     display: flex;
-    margin: 5rem;
+}
+
+.image img {
+    width: 500px
 }
 
 .image-top {
