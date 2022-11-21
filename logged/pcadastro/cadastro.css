@@ -86,7 +86,10 @@ body {
 
 .image {
     display: flex;
-    margin: 5rem;
+}
+
+.image img {
+    width: 500px;
 }
 
 .image-top {
@@ -96,7 +99,6 @@ body {
     width: 90%;
     margin: auto;
     padding-top: 50px;
-    margin-bottom: 150px;
     gap: 100px;
 }
 
