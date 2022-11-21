@@ -24,6 +24,10 @@ body {
     height: 100vh;
 }
 
+.main-menu p {
+    font-family: 'Share Tech Mono';
+  }
+
 .container {
     width: 100%;
     margin: auto;
@@ -101,9 +105,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20rem 3rem 20rem 3rem;
+    padding: 0 3rem;
     background-color: #DEDEEF;
-    height: 35rem;
+    height: 10%;
     border-radius: 20px;
     box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.189);
 }
@@ -117,6 +121,7 @@ body {
 .form-header h1 {
     color: rgba(0, 0, 0, 0.592);
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .form-header h1::after {
@@ -178,6 +183,10 @@ body {
 
 .input-box input::placeholder {
     color: #000000be;
+}
+
+.continue-button {
+    padding-bottom: 15px;
 }
 
 .continue-button input {

@@ -24,6 +24,10 @@ body {
     height: 100vh;
 }
 
+.main-menu p {
+    font-family: 'Share Tech Mono';
+  }
+
 .container {
     width: 100%;
     margin: auto;
