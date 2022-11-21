@@ -100,7 +100,6 @@ body {
     width: 90%;
     margin: auto;
     padding-top: 50px;
-    margin-bottom: 150px;
 }
 
 .form {
@@ -112,6 +111,7 @@ body {
     background-color: #DEDEEF;
     margin-top: 3rem;
     height: 25rem;
+    width: 25%;
     border-radius: 20px;
     box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.189);
 }
@@ -251,6 +251,17 @@ table {
   .table-div {
     width: 50%;
   }
+
+  .table-header h1::after {
+    content: '';
+    display: block;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: #FE7062;
+    margin: 0.2rem auto;
+    position: absolute;
+    border-radius: 10px;
+}
 
   @media screen and (max-width: 600px) {
     table {
