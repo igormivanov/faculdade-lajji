@@ -113,7 +113,7 @@ body {
 }
 
 .form-header {
-    margin-bottom: 3rem;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -186,11 +186,10 @@ body {
 }
 
 .continue-button {
-    padding-bottom: 15px;
+    padding: 20px 0;
 }
 
 .continue-button input {
-    margin-top: 2rem;
     border: none;
     background-color: #FE7062;
     padding: 0.62rem;
