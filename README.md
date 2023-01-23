@@ -1,12 +1,13 @@
 # Projeto Interdiciplinar - Faculdade IFSP
 
-<!-- ![priview](./.github/preview.png) -->
+![priview](./.github/preview.png)
 
 > Desenvolvimento Web
 
-Site em desenvolvimento sobre "Sistema de controle de estoque" <br>Front-end do projeto
+Desenvolvimento de site para um projeto da faculdade, aqui se encontra apenas a parte web, porém o projeto já foi finalizado com a introdução do back-end formando por completo um <b>Sistema de gerenciamento de estoque</b>
 
-[Clique aqui para acessar](https://igormivanov.github.io/Projeto-faculdade/)
+
+[Clique aqui para acessar](https://igormivanov.github.io/projeto-faculdade/)
 
 ## Tecnologias 
 
